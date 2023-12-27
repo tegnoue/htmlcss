@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens flexíveis</title>
+    <title>Imagens Dinâmicas</title>
 </head>
 <body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/ImagemP.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagem/ImagemM.png" type="image/png">
+        <img src="imagem/ImagemG.png" alt="imagem grande">
+    </picture>
     
+    <h1>Adicionando um áudio ao site</h1>
+    <p>reggaezin no site e fé</p>
+    <audio preload="" controls>
+        <source src="musga.mp3" type="audio/mpeg">
+    </audio>
 </body>
 </html>
