@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: violet;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(11, 101, 101);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: blueviolet;  
+        }
+        a::after{
+            content: ' (link)';
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/tegnoue" target="_blank" rel="external">GitHub</a></li>
+        <li><a href="https://www.youtube.com/tegnoue" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Site</a></li>
+    </ul>
+</body>
+</html>
