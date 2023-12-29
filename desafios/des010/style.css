@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(145, 251, 145);
+}
+
+#menu ul li{
+    color: white;
+    display: inline-block;
+    list-style: none;
+}
+
+header{
+    background-image: linear-gradient(to top, darkgreen, rgb(51, 193, 51));
+    height: 200px;
+    margin: auto;
+}
+
+header > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin:auto;
+}
+
+header > p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.androidsubtitulo{
+    background-image:linear-gradient(to right, rgba(91, 255, 91, 0.681), white);
+    color: darkgreen;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article{
+    background-color: white;
+    padding: 15px;
+    margin-top: 0px;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
