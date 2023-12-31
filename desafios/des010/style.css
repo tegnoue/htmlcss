@@ -3,31 +3,86 @@
 
 body{
     background-color: rgb(145, 251, 145);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 #menu ul li{
     color: white;
     display: inline-block;
     list-style: none;
+    margin-top: 68px;
+    text-align: center;
+}
+
+nav > ul{
+    padding-inline-start: 0px;
+}
+
+.palavra-destaque{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.links-redirecionais{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.links-redirecionais:hover{
+    background-color: darkgreen;
+    color: white;
+    padding: 1px;
+}
+
+.item-menu{
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: lightgreen;
+    border-radius: 8%;
+}
+
+.item-menu:hover{
+    background-color: darkgreen;
+}
+
+.item-menu > a{
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 8%;
+    text-decoration: none;
+    color: black;
+}
+
+.item-menu > a:hover{
+    text-decoration: none;
+    color: lightgreen;
 }
 
 header{
     background-image: linear-gradient(to top, darkgreen, rgb(51, 193, 51));
     height: 200px;
-    margin: auto;
+    margin: 0px;
+    padding: 30px 20px 20px 20px;
+
 }
 
 header > h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     color: white;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 header > p{
-    font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: center;
+    margin-top: 40px;
 }
 
 .androidsubtitulo{
@@ -38,11 +93,72 @@ header > p{
 }
 
 article{
+    padding-top: 15px;
     background-color: white;
-    padding: 15px;
     margin-top: 0px;
     text-align: justify;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 8px 8px 8px lightgreen;
 }
 
+article > h1{
+    padding-left: 15px;
+    color: darkgreen;
+}
+
+article > h2{
+    padding-left: 15px;
+}
+
+article > p{
+    margin: 15px 15px 0px 15px;
+}
+
+article > picture{
+    text-align: center;
+    display: block;
+
+}
+
+footer{
+    background-color: darkgreen;
+    color: lightgreen;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer>p{
+    margin: 0px;
+}
+
+#video{
+    padding: 20px;
+    text-align: center;
+    background-color: darkgreen;
+}
+
+#saiba-mais{
+    margin: 30px;
+    border-radius: 15px;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 5px rgba(0, 128, 0, 0.592);
+}
+
+#saiba-mais > h1{
+    background-color: rgb(42, 105, 42);
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+#saiba-mais > p{
+    margin: 10px;
+}
