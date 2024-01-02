@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+}
+header h1{
+    font-family: 'Passion One', sans-serif;
+    font-size: 3em;
+}
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+article{
+    padding: 20px;
+    font-family: 'Sriracha', cursive;
+    line-height: 35px;
+}
+
+article p{
+    margin: 25px 0x;
+}
+
+.textoimagem{
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+}
+
+#imagemflor{
+    max-width: 1240px;
+    height: 400px;
+    margin: 0px -20px;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    position: relative;
+}
+
+#imagemcaderno{
+    max-width: 1240px;
+    height: 400px;
+    margin: 0px -20px;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
