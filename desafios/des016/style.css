@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+
+/* html, body{
+    margin: 0px;
+}
+
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-color: rgb(163, 141, 111);
+    position: relative;
+}
+
+#celular{
+    background-image: url('imagens/frame-iphone.png');
+    height: 400px;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+}
+
+#frametela{
+    margin-top: 50px;
+    margin-left: 13px;
+    height: 300px;
+    width: 170px;
+    border: none;
+    overflow: hidden;
+
+}
+
+nav{
+    position: absolute;
+    left: 95%;
+    top: 5%;
+}
+
+.botoesredes{
+    border-radius: 50%;
+    height: 50px;
+    margin-bottom: 7px;
+    width: 50px;
+} */
+
+@charset 'UTF-8';
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden; /* Adicionado para ocultar a barra de rolagem do body */
+}
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-color: rgb(163, 141, 111);
+    position: relative;
+}
+
+#celular {
+    background-image: url('imagens/frame-iphone.png');
+    height: 400px;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden; /* Adicionado para ocultar a barra de rolagem do #celular */
+}
+
+#frametela {
+    margin-top: 50px;
+    margin-left: 13px;
+    height: 300px;
+    width: 170px;
+    border: none;
+}
+
+nav {
+    position: absolute;
+    left: 95%;
+    top: 5%;
+}
+
+.botoesredes {
+    border-radius: 50%;
+    height: 50px;
+    margin-bottom: 7px;
+    width: 50px;
+}
+

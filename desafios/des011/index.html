@@ -6,29 +6,53 @@
     <title>Desafio</title>
     <style>
 
-        html, body{
-            margin: 0;
-        }
+        
 
         #fora{
             background-image: url('imagens/espaco.jpg');
             background-size: cover;
-            background-repeat: no-repeat;
             background-color: rgb(14, 45, 71);
             background-position: center center;
-            background-attachment: fixed;
-            height: 100vh;  
-            margin: 0;
+            height: 100vh;
             position: relative;
         }
 
         #dentro{
-            text-align: center;
-            display: block;
-            max-width: 100%;
-            max-height: 350px;
-            margin: auto;
+            position: absolute;
+            height: 800px;
+            width: 800px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-size: 100% 100%;
+            background-image: url('imagens/astronauta.png');
+            
         }
+
+        html, body{
+                    margin: 0;
+                }
+        /* #fora{
+            background-image: url("imagens/espaco.jpg");
+            position: relative;
+            background-size: cover;
+            background-position: center center;
+            height: 99.2vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #dentro{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            left: 50%;
+            top: 50%;
+            background-image: url("imagens/astronauta.png");
+            background-size: 100% 100%;
+            transform: translate(-50%, -50%);
+
+        } */
 
 
     </style>
@@ -37,7 +61,6 @@
     
     <div id="fora">
         <div id="dentro">
-            <img src="imagens/astronauta.png" alt="astronauta">
         </div>
     </div>
     
