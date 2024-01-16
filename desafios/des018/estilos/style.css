@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 721px) {
+    
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top, cyan, purple);
+    background-repeat: no-repeat;
+}
+
+}
